@@ -48,22 +48,25 @@ export default function ProfileFormik() {
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.firstname}
+              placeholder="Your first name"
             />
-            {errors.text && touched.firstname && errors.firstname}
+            {errors.firstname && touched.firstname && errors.firstname}
             <input
               type="text"
               name="lastname"
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.lastname}
+              placeholder="Your last name"
             />
-            {errors.text && touched.lastname && errors.lastname}
+            {errors.firstname && touched.lastname && errors.lastname}
             <input
               type="email"
               name="email"
               onChange={handleChange}
               onBlur={handleBlur}
               value={values.email}
+              placeholder="Your first name"
             />
             {errors.email && touched.email && errors.email}
 

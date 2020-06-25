@@ -41,7 +41,7 @@ export default function ProfileForm() {
           type="email"
           value={user.email}
           onChange={handleChange}
-          placeholder="e.g jane@doe.com"
+          placeholder="e.g. jane@doe.com"
           required
         />
         <label htmlFor="gender">Your gender*:</label>
